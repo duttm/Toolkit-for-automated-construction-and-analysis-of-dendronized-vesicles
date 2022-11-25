@@ -6,7 +6,10 @@
 
 Our scripts organize all files into the following data structure: 
 
+`
 DATA/pH/Generation/Concentration/Seed
+`
+<br>
 
 We have separate data collection/parser scripts for all generations. Separate scripts were required as the file naming was not consistent for all generations. 
 
