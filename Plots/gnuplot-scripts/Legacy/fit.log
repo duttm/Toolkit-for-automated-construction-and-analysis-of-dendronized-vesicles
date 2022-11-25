@@ -1,0 +1,888 @@
+
+
+*******************************************************************************
+Mon Jun  6 15:42:19 2022
+
+
+FIT:    data read from '../DATA/ACIDIC/'.filename.'/SummaryG1.txt' using  ($2):($3)
+        format = x:z
+        x range restricted to [2.00000 : 3000.00]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + q
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             q            
+   0 2.8904438713e+06   0.00e+00  3.62e+02    1.000000e+00   1.000000e+00
+   6 9.8743438807e-03  -1.48e-03  3.62e-04    6.190031e-04   3.735804e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.00987434
+rel. change during last iteration : -1.48214e-08
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0331232
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00109715
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.000619003      +/- 3.424e-05    (5.531%)
+q               = 0.37358          +/- 0.01754      (4.696%)
+
+correlation matrix of the fit parameters:
+                m      q      
+m               1.000 
+q              -0.822  1.000 
+
+
+*******************************************************************************
+Mon Jun  6 15:42:19 2022
+
+
+FIT:    data read from '../DATA/ACIDIC/'.filename.'/SummaryG2.txt' using  ($2):($3)
+        format = x:z
+        x range restricted to [2.00000 : 3000.00]
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + q
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             q            
+   0 2.6980756313e+00   0.00e+00  2.94e-01    6.190031e-04   3.735804e-01
+   4 6.1449829574e-03  -5.09e-08  2.94e-05    1.084941e-03   7.703635e-01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00614498
+rel. change during last iteration : -5.08703e-13
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.027715
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000768123
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.00108494       +/- 5.929e-05    (5.465%)
+q               = 0.770364         +/- 0.01733      (2.249%)
+
+correlation matrix of the fit parameters:
+                m      q      
+m               1.000 
+q              -0.863  1.000 
+
+
+*******************************************************************************
+Mon Jun  6 15:42:19 2022
+
+
+FIT:    data read from '../DATA/ACIDIC/'.filename.'/SummaryG3.txt' using  ($2):($3)
+        format = x:z
+        x range restricted to [2.00000 : 3000.00]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + q
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             q            
+   0 1.1390275509e+00   0.00e+00  5.63e-01    1.084941e-03   7.703635e-01
+   4 8.5591074562e-03  -2.70e-04  5.63e-05    1.717083e-03   1.062344e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00855911
+rel. change during last iteration : -2.7006e-09
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0413742
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00171182
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.00171708       +/- 0.0002166    (12.61%)
+q               = 1.06234          +/- 0.03994      (3.76%)
+
+correlation matrix of the fit parameters:
+                m      q      
+m               1.000 
+q              -0.920  1.000 
+
+
+*******************************************************************************
+Mon Jun  6 15:42:19 2022
+
+
+FIT:    data read from '../DATA/ACIDIC/'.filename.'/SummaryG4.txt' using  ($2):($3)
+        format = x:z
+        x range restricted to [2.00000 : 3000.00]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + q
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             q            
+   0 1.2630347312e+00   0.00e+00  7.67e-01    1.717083e-03   1.062344e+00
+   4 4.5975491452e-03  -6.91e-03  7.67e-05    2.839287e-03   1.383941e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00459755
+rel. change during last iteration : -6.91027e-08
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0339026
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00114939
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.00283929       +/- 0.0002717    (9.568%)
+q               = 1.38394          +/- 0.035        (2.529%)
+
+correlation matrix of the fit parameters:
+                m      q      
+m               1.000 
+q              -0.918  1.000 
+
+
+*******************************************************************************
+Mon Jun  6 15:42:19 2022
+
+
+FIT:    data read from '../DATA/ACIDIC/'.filename.'/SummaryG5.txt' using  ($2):($3)
+        format = x:z
+        x range restricted to [2.00000 : 3000.00]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + q
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             q            
+   0 1.1653585576e+00   0.00e+00  9.93e-01    2.839287e-03   1.383941e+00
+   4 1.7253004403e-02  -4.52e-02  9.93e-05    6.177069e-03   1.597052e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.017253
+rel. change during last iteration : -4.52049e-07
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0758354
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.005751
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.00617707       +/- 0.0009936    (16.09%)
+q               = 1.59705          +/- 0.08242      (5.161%)
+
+correlation matrix of the fit parameters:
+                m      q      
+m               1.000 
+q              -0.911  1.000 
+
+
+*******************************************************************************
+Mon Jun  6 15:42:19 2022
+
+
+FIT:    data read from '../DATA/ACIDIC/'.filename.'/SummaryG6.txt' using  ($2):($3)
+        format = x:z
+        x range restricted to [2.00000 : 3000.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + q
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             q            
+   0 1.0611801678e+00   0.00e+00  1.14e+00    6.177069e-03   1.597052e+00
+   4 2.0153320395e-02  -2.44e-03  1.14e-04    7.150194e-03   2.161874e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.0201533
+rel. change during last iteration : -2.43762e-08
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.141962
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0201533
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.00715019       +/- 0.004658     (65.15%)
+q               = 2.16187          +/- 0.1411       (6.529%)
+
+correlation matrix of the fit parameters:
+                m      q      
+m               1.000 
+q              -0.814  1.000 
+
+
+*******************************************************************************
+Mon Jun  6 15:42:57 2022
+
+
+FIT:    data read from '../DATA/ACIDIC/'.filename.'/SummaryG1.txt' using  ($2):($3)
+        format = x:z
+        x range restricted to [2.00000 : 3000.00]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + q
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             q            
+   0 2.8904438713e+06   0.00e+00  3.62e+02    1.000000e+00   1.000000e+00
+   6 9.8743438807e-03  -1.48e-03  3.62e-04    6.190031e-04   3.735804e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.00987434
+rel. change during last iteration : -1.48214e-08
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0331232
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00109715
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.000619003      +/- 3.424e-05    (5.531%)
+q               = 0.37358          +/- 0.01754      (4.696%)
+
+correlation matrix of the fit parameters:
+                m      q      
+m               1.000 
+q              -0.822  1.000 
+
+
+*******************************************************************************
+Mon Jun  6 15:42:57 2022
+
+
+FIT:    data read from '../DATA/ACIDIC/'.filename.'/SummaryG2.txt' using  ($2):($3)
+        format = x:z
+        x range restricted to [2.00000 : 3000.00]
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + q
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             q            
+   0 2.6980756313e+00   0.00e+00  2.94e-01    6.190031e-04   3.735804e-01
+   4 6.1449829574e-03  -5.09e-08  2.94e-05    1.084941e-03   7.703635e-01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00614498
+rel. change during last iteration : -5.08703e-13
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.027715
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000768123
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.00108494       +/- 5.929e-05    (5.465%)
+q               = 0.770364         +/- 0.01733      (2.249%)
+
+correlation matrix of the fit parameters:
+                m      q      
+m               1.000 
+q              -0.863  1.000 
+
+
+*******************************************************************************
+Mon Jun  6 15:42:57 2022
+
+
+FIT:    data read from '../DATA/ACIDIC/'.filename.'/SummaryG3.txt' using  ($2):($3)
+        format = x:z
+        x range restricted to [2.00000 : 3000.00]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + q
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             q            
+   0 1.1390275509e+00   0.00e+00  5.63e-01    1.084941e-03   7.703635e-01
+   4 8.5591074562e-03  -2.70e-04  5.63e-05    1.717083e-03   1.062344e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00855911
+rel. change during last iteration : -2.7006e-09
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0413742
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00171182
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.00171708       +/- 0.0002166    (12.61%)
+q               = 1.06234          +/- 0.03994      (3.76%)
+
+correlation matrix of the fit parameters:
+                m      q      
+m               1.000 
+q              -0.920  1.000 
+
+
+*******************************************************************************
+Mon Jun  6 15:42:57 2022
+
+
+FIT:    data read from '../DATA/ACIDIC/'.filename.'/SummaryG4.txt' using  ($2):($3)
+        format = x:z
+        x range restricted to [2.00000 : 3000.00]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + q
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             q            
+   0 1.2630347312e+00   0.00e+00  7.67e-01    1.717083e-03   1.062344e+00
+   4 4.5975491452e-03  -6.91e-03  7.67e-05    2.839287e-03   1.383941e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00459755
+rel. change during last iteration : -6.91027e-08
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0339026
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00114939
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.00283929       +/- 0.0002717    (9.568%)
+q               = 1.38394          +/- 0.035        (2.529%)
+
+correlation matrix of the fit parameters:
+                m      q      
+m               1.000 
+q              -0.918  1.000 
+
+
+*******************************************************************************
+Mon Jun  6 15:42:57 2022
+
+
+FIT:    data read from '../DATA/ACIDIC/'.filename.'/SummaryG5.txt' using  ($2):($3)
+        format = x:z
+        x range restricted to [2.00000 : 3000.00]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + q
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             q            
+   0 1.1653585576e+00   0.00e+00  9.93e-01    2.839287e-03   1.383941e+00
+   4 1.7253004403e-02  -4.52e-02  9.93e-05    6.177069e-03   1.597052e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.017253
+rel. change during last iteration : -4.52049e-07
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0758354
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.005751
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.00617707       +/- 0.0009936    (16.09%)
+q               = 1.59705          +/- 0.08242      (5.161%)
+
+correlation matrix of the fit parameters:
+                m      q      
+m               1.000 
+q              -0.911  1.000 
+
+
+*******************************************************************************
+Mon Jun  6 15:42:57 2022
+
+
+FIT:    data read from '../DATA/ACIDIC/'.filename.'/SummaryG6.txt' using  ($2):($3)
+        format = x:z
+        x range restricted to [2.00000 : 3000.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + q
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             q            
+   0 1.0611801678e+00   0.00e+00  1.14e+00    6.177069e-03   1.597052e+00
+   4 2.0153320395e-02  -2.44e-03  1.14e-04    7.150194e-03   2.161874e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.0201533
+rel. change during last iteration : -2.43762e-08
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.141962
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0201533
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.00715019       +/- 0.004658     (65.15%)
+q               = 2.16187          +/- 0.1411       (6.529%)
+
+correlation matrix of the fit parameters:
+                m      q      
+m               1.000 
+q              -0.814  1.000 
+
+
+*******************************************************************************
+Mon Jun  6 15:44:03 2022
+
+
+FIT:    data read from '../DATA/ACIDIC/'.filename.'/SummaryG1.txt' using  ($2):($3)
+        format = x:z
+        x range restricted to [2.00000 : 3000.00]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + q
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             q            
+   0 2.8904438713e+06   0.00e+00  3.62e+02    1.000000e+00   1.000000e+00
+   6 9.8743438807e-03  -1.48e-03  3.62e-04    6.190031e-04   3.735804e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.00987434
+rel. change during last iteration : -1.48214e-08
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0331232
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00109715
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.000619003      +/- 3.424e-05    (5.531%)
+q               = 0.37358          +/- 0.01754      (4.696%)
+
+correlation matrix of the fit parameters:
+                m      q      
+m               1.000 
+q              -0.822  1.000 
+
+
+*******************************************************************************
+Mon Jun  6 15:44:03 2022
+
+
+FIT:    data read from '../DATA/ACIDIC/'.filename.'/SummaryG2.txt' using  ($2):($3)
+        format = x:z
+        x range restricted to [2.00000 : 3000.00]
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + q
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             q            
+   0 2.6980756313e+00   0.00e+00  2.94e-01    6.190031e-04   3.735804e-01
+   4 6.1449829574e-03  -5.09e-08  2.94e-05    1.084941e-03   7.703635e-01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00614498
+rel. change during last iteration : -5.08703e-13
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.027715
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000768123
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.00108494       +/- 5.929e-05    (5.465%)
+q               = 0.770364         +/- 0.01733      (2.249%)
+
+correlation matrix of the fit parameters:
+                m      q      
+m               1.000 
+q              -0.863  1.000 
+
+
+*******************************************************************************
+Mon Jun  6 15:44:03 2022
+
+
+FIT:    data read from '../DATA/ACIDIC/'.filename.'/SummaryG3.txt' using  ($2):($3)
+        format = x:z
+        x range restricted to [2.00000 : 3000.00]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + q
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             q            
+   0 1.1390275509e+00   0.00e+00  5.63e-01    1.084941e-03   7.703635e-01
+   4 8.5591074562e-03  -2.70e-04  5.63e-05    1.717083e-03   1.062344e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00855911
+rel. change during last iteration : -2.7006e-09
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0413742
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00171182
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.00171708       +/- 0.0002166    (12.61%)
+q               = 1.06234          +/- 0.03994      (3.76%)
+
+correlation matrix of the fit parameters:
+                m      q      
+m               1.000 
+q              -0.920  1.000 
+
+
+*******************************************************************************
+Mon Jun  6 15:44:03 2022
+
+
+FIT:    data read from '../DATA/ACIDIC/'.filename.'/SummaryG4.txt' using  ($2):($3)
+        format = x:z
+        x range restricted to [2.00000 : 3000.00]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + q
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             q            
+   0 1.2630347312e+00   0.00e+00  7.67e-01    1.717083e-03   1.062344e+00
+   4 4.5975491452e-03  -6.91e-03  7.67e-05    2.839287e-03   1.383941e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00459755
+rel. change during last iteration : -6.91027e-08
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0339026
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00114939
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.00283929       +/- 0.0002717    (9.568%)
+q               = 1.38394          +/- 0.035        (2.529%)
+
+correlation matrix of the fit parameters:
+                m      q      
+m               1.000 
+q              -0.918  1.000 
+
+
+*******************************************************************************
+Mon Jun  6 15:44:03 2022
+
+
+FIT:    data read from '../DATA/ACIDIC/'.filename.'/SummaryG5.txt' using  ($2):($3)
+        format = x:z
+        x range restricted to [2.00000 : 3000.00]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + q
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             q            
+   0 1.1653585576e+00   0.00e+00  9.93e-01    2.839287e-03   1.383941e+00
+   4 1.7253004403e-02  -4.52e-02  9.93e-05    6.177069e-03   1.597052e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.017253
+rel. change during last iteration : -4.52049e-07
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0758354
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.005751
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.00617707       +/- 0.0009936    (16.09%)
+q               = 1.59705          +/- 0.08242      (5.161%)
+
+correlation matrix of the fit parameters:
+                m      q      
+m               1.000 
+q              -0.911  1.000 
+
+
+*******************************************************************************
+Mon Jun  6 15:44:03 2022
+
+
+FIT:    data read from '../DATA/ACIDIC/'.filename.'/SummaryG6.txt' using  ($2):($3)
+        format = x:z
+        x range restricted to [2.00000 : 3000.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + q
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             q            
+   0 1.0611801678e+00   0.00e+00  1.14e+00    6.177069e-03   1.597052e+00
+   4 2.0153320395e-02  -2.44e-03  1.14e-04    7.150194e-03   2.161874e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.0201533
+rel. change during last iteration : -2.43762e-08
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.141962
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0201533
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.00715019       +/- 0.004658     (65.15%)
+q               = 2.16187          +/- 0.1411       (6.529%)
+
+correlation matrix of the fit parameters:
+                m      q      
+m               1.000 
+q              -0.814  1.000 
+
+
+*******************************************************************************
+Mon Jun  6 15:44:50 2022
+
+
+FIT:    data read from '../DATA/ACIDIC/'.filename.'/SummaryG1.txt' using  ($2):($3)
+        format = x:z
+        x range restricted to [2.00000 : 3000.00]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + q
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             q            
+   0 2.8904438713e+06   0.00e+00  3.62e+02    1.000000e+00   1.000000e+00
+   6 9.8743438807e-03  -1.48e-03  3.62e-04    6.190031e-04   3.735804e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.00987434
+rel. change during last iteration : -1.48214e-08
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0331232
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00109715
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.000619003      +/- 3.424e-05    (5.531%)
+q               = 0.37358          +/- 0.01754      (4.696%)
+
+correlation matrix of the fit parameters:
+                m      q      
+m               1.000 
+q              -0.822  1.000 
+
+
+*******************************************************************************
+Mon Jun  6 15:44:50 2022
+
+
+FIT:    data read from '../DATA/ACIDIC/'.filename.'/SummaryG2.txt' using  ($2):($3)
+        format = x:z
+        x range restricted to [2.00000 : 3000.00]
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + q
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             q            
+   0 2.6980756313e+00   0.00e+00  2.94e-01    6.190031e-04   3.735804e-01
+   4 6.1449829574e-03  -5.09e-08  2.94e-05    1.084941e-03   7.703635e-01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00614498
+rel. change during last iteration : -5.08703e-13
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.027715
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000768123
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.00108494       +/- 5.929e-05    (5.465%)
+q               = 0.770364         +/- 0.01733      (2.249%)
+
+correlation matrix of the fit parameters:
+                m      q      
+m               1.000 
+q              -0.863  1.000 
+
+
+*******************************************************************************
+Mon Jun  6 15:44:50 2022
+
+
+FIT:    data read from '../DATA/ACIDIC/'.filename.'/SummaryG3.txt' using  ($2):($3)
+        format = x:z
+        x range restricted to [2.00000 : 3000.00]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + q
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             q            
+   0 1.1390275509e+00   0.00e+00  5.63e-01    1.084941e-03   7.703635e-01
+   4 8.5591074562e-03  -2.70e-04  5.63e-05    1.717083e-03   1.062344e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00855911
+rel. change during last iteration : -2.7006e-09
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0413742
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00171182
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.00171708       +/- 0.0002166    (12.61%)
+q               = 1.06234          +/- 0.03994      (3.76%)
+
+correlation matrix of the fit parameters:
+                m      q      
+m               1.000 
+q              -0.920  1.000 
+
+
+*******************************************************************************
+Mon Jun  6 15:44:50 2022
+
+
+FIT:    data read from '../DATA/ACIDIC/'.filename.'/SummaryG4.txt' using  ($2):($3)
+        format = x:z
+        x range restricted to [2.00000 : 3000.00]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + q
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             q            
+   0 1.2630347312e+00   0.00e+00  7.67e-01    1.717083e-03   1.062344e+00
+   4 4.5975491452e-03  -6.91e-03  7.67e-05    2.839287e-03   1.383941e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00459755
+rel. change during last iteration : -6.91027e-08
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0339026
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00114939
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.00283929       +/- 0.0002717    (9.568%)
+q               = 1.38394          +/- 0.035        (2.529%)
+
+correlation matrix of the fit parameters:
+                m      q      
+m               1.000 
+q              -0.918  1.000 
+
+
+*******************************************************************************
+Mon Jun  6 15:44:50 2022
+
+
+FIT:    data read from '../DATA/ACIDIC/'.filename.'/SummaryG5.txt' using  ($2):($3)
+        format = x:z
+        x range restricted to [2.00000 : 3000.00]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + q
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             q            
+   0 1.1653585576e+00   0.00e+00  9.93e-01    2.839287e-03   1.383941e+00
+   4 1.7253004403e-02  -4.52e-02  9.93e-05    6.177069e-03   1.597052e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.017253
+rel. change during last iteration : -4.52049e-07
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0758354
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.005751
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.00617707       +/- 0.0009936    (16.09%)
+q               = 1.59705          +/- 0.08242      (5.161%)
+
+correlation matrix of the fit parameters:
+                m      q      
+m               1.000 
+q              -0.911  1.000 
+
+
+*******************************************************************************
+Mon Jun  6 15:44:50 2022
+
+
+FIT:    data read from '../DATA/ACIDIC/'.filename.'/SummaryG6.txt' using  ($2):($3)
+        format = x:z
+        x range restricted to [2.00000 : 3000.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + q
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             q            
+   0 1.0611801678e+00   0.00e+00  1.14e+00    6.177069e-03   1.597052e+00
+   4 2.0153320395e-02  -2.44e-03  1.14e-04    7.150194e-03   2.161874e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.0201533
+rel. change during last iteration : -2.43762e-08
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.141962
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0201533
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.00715019       +/- 0.004658     (65.15%)
+q               = 2.16187          +/- 0.1411       (6.529%)
+
+correlation matrix of the fit parameters:
+                m      q      
+m               1.000 
+q              -0.814  1.000 

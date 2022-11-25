@@ -1,0 +1,6 @@
+1.What is the generation?	G1
+2.What is the name of the base file?	G1_BASE
+3.Number of data points	6
+4.Grid spacing 	5,10,15,20,25,30
+5.ions per dendron	0
+6.Relaxation gap	1.5,1.5,1.5,1.5,1.5,1.5

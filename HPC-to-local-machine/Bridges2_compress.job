@@ -1,0 +1,23 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p RM-shared
+#SBATCH --ntasks-per-node=1
+#SBATCH -t 48:00:00
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=XXXXXXXX
+
+# Setup the module command
+set echo
+set -x 
+
+
+cd $SLURM_SUBMIT_DIR
+
+
+
+##tar -czvf <name of tar file > <name of the folder to compress>
+
+tar -czvf multi-sim-launcher.tar.gz 7_14_2022/
+
+##can add more tar commands
+##tar -czvf and-calc.tar.gz 6_10_2022/

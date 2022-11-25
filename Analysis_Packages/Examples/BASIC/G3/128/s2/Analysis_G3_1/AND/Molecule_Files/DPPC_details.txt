@@ -1,0 +1,14 @@
+1.Name of File	DPPC_centered.gro
+2.No of elements in a single molecule	12
+3.Type of molecule	DPPCHEAD
+4.Molecule index file	Molecule_DPPC.txt
+5.Which resdiue to use for seprartion of monolayers	PO4
+6.Residue for centering	C4B
+7.Group for interaction count	PO4
+8.File for lipid polar head groups	Molecule_DPPC_Polar_head.txt
+9.Group in polar head group file	HEAD
+10.Start lipid tail counting from 	GL1
+11.End lipid tail counting at	C4B
+12.Index to locate NC3	NC3
+13.GL1	GL1
+14.GL2	GL2

@@ -1,0 +1,910 @@
+24-input.gro is here
+28-input.xtc is here
+                     :-) GROMACS - gmx trjconv, 2019.6 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx trjconv, version 2019.6
+Executable:   /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen2/gcc-10.2.0/gromacs-2019.6-ymqzlo5624lcf5xcrs5wx5vy43r4m2pn/bin/gmx_mpi
+Data prefix:  /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen2/gcc-10.2.0/gromacs-2019.6-ymqzlo5624lcf5xcrs5wx5vy43r4m2pn
+Working dir:  /scratch/YYYYY/job_13732872/Parent/Vesicle_Render
+Command line:
+  gmx_mpi trjconv -f 24-input.gro -s 24-input.gro -o start_DPPC.gro
+
+Note that major changes are planned in future for trjconv, to improve usability and utility.
+Will write gro: Coordinate file in Gromos-87 format
+Select group for output
+Group     0 (         System) has 1020890 elements
+Group     1 (          Other) has 1020890 elements
+Group     2 (            DEN) has  4992 elements
+Group     3 (           DPPC) has 34932 elements
+Group     4 (              W) has 882870 elements
+Group     5 (             WF) has 98096 elements
+Select a group: Selected 3: 'DPPC'
+Reading frames from gro file '3000 lipid bilayer in water', 1020890 atoms.
+Reading frame       0 time    0.000   
+Precision of 24-input.gro is 0.001 (nm)
+ ->  frame      0 time    0.000      Last frame          0 time    0.000   
+
+
+GROMACS reminds you: "I Don't Want to Catch Anybody Not Drinking." (Monty Python)
+
+The name of the file is start_DPPC.gro
+No. of elements in a single frame is 34932
+No. of elements in a single molecule is 12
+No. of frames in trajectory is 1
+Dimensions of box is 51.63356 51.63356 51.71838
+rm: cannot remove 'index.ndx': No such file or directory
+rm: cannot remove 'index_mod.ndx': No such file or directory
+                     :-) GROMACS - gmx trjconv, 2019.6 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx trjconv, version 2019.6
+Executable:   /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen2/gcc-10.2.0/gromacs-2019.6-ymqzlo5624lcf5xcrs5wx5vy43r4m2pn/bin/gmx_mpi
+Data prefix:  /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen2/gcc-10.2.0/gromacs-2019.6-ymqzlo5624lcf5xcrs5wx5vy43r4m2pn
+Working dir:  /scratch/YYYYY/job_13732872/Parent/Creater_ndx
+Command line:
+  gmx_mpi trjconv -f 24-input.gro -s 24-input.gro -o DEN.gro
+
+Note that major changes are planned in future for trjconv, to improve usability and utility.
+Will write gro: Coordinate file in Gromos-87 format
+Select group for output
+Group     0 (         System) has 1020890 elements
+Group     1 (          Other) has 1020890 elements
+Group     2 (            DEN) has  4992 elements
+Group     3 (           DPPC) has 34932 elements
+Group     4 (              W) has 882870 elements
+Group     5 (             WF) has 98096 elements
+Select a group: Selected 2: 'DEN'
+Reading frames from gro file '3000 lipid bilayer in water', 1020890 atoms.
+Reading frame       0 time    0.000   
+Precision of 24-input.gro is 0.001 (nm)
+ ->  frame      0 time    0.000      Last frame          0 time    0.000   
+
+
+GROMACS reminds you: "Your daddy ain't your daddy but your daddy don't know" (Dalahan)
+
+                     :-) GROMACS - gmx make_ndx, 2019.6 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx make_ndx, version 2019.6
+Executable:   /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen2/gcc-10.2.0/gromacs-2019.6-ymqzlo5624lcf5xcrs5wx5vy43r4m2pn/bin/gmx_mpi
+Data prefix:  /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen2/gcc-10.2.0/gromacs-2019.6-ymqzlo5624lcf5xcrs5wx5vy43r4m2pn
+Working dir:  /scratch/YYYYY/job_13732872/Parent/Creater_ndx
+Command line:
+  gmx_mpi make_ndx -f 24-input.gro -o index.ndx
+
+
+Reading structure file
+Going to read 0 old index file(s)
+Analysing residue names:
+There are: 984005      Other residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+  0 System              : 1020890 atoms
+  1 Other               : 1020890 atoms
+  2 DEN                 :  4992 atoms
+  3 DPPC                : 34932 atoms
+  4 W                   : 882870 atoms
+  5 WF                  : 98096 atoms
+
+ nr : group      '!': not  'name' nr name   'splitch' nr    Enter: list groups
+ 'a': atom       '&': and  'del' nr         'splitres' nr   'l': list residues
+ 't': atom type  '|': or   'keep' nr        'splitat' nr    'h': help
+ 'r': residue              'res' nr         'chain' char
+ "name": group             'case': case sensitive           'q': save and quit
+ 'ri': residue index
+
+> 
+
+GROMACS reminds you: "I've basically become a vegetarian since the only meat I'm eating is from animals I've killed myself" (Mark Zuckerberg)
+
+We are going to center as per coordinate: 39912
+                     :-) GROMACS - gmx trjconv, 2019.6 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx trjconv, version 2019.6
+Executable:   /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen2/gcc-10.2.0/gromacs-2019.6-ymqzlo5624lcf5xcrs5wx5vy43r4m2pn/bin/gmx_mpi
+Data prefix:  /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen2/gcc-10.2.0/gromacs-2019.6-ymqzlo5624lcf5xcrs5wx5vy43r4m2pn
+Working dir:  /scratch/YYYYY/job_13732872/Parent/Creater_ndx
+Command line:
+  gmx_mpi trjconv -f 28-input.xtc -s 24-input.gro -o centered.gro -pbc atom -center -ur compact -n index_mod.ndx -skip 1
+
+Note that major changes are planned in future for trjconv, to improve usability and utility.
+Will write gro: Coordinate file in Gromos-87 format
+Select group for centering
+Group     0 (         System) has 1020890 elements
+Group     1 (          Other) has 1020890 elements
+Group     2 (            DEN) has  4992 elements
+Group     3 (           DPPC) has 34932 elements
+Group     4 (              W) has 882870 elements
+Group     5 (             WF) has 98096 elements
+Group     6 (         center) has     1 elements
+Select a group: Selected 6: 'center'
+Select group for output
+Group     0 (         System) has 1020890 elements
+Group     1 (          Other) has 1020890 elements
+Group     2 (            DEN) has  4992 elements
+Group     3 (           DPPC) has 34932 elements
+Group     4 (              W) has 882870 elements
+Group     5 (             WF) has 98096 elements
+Group     6 (         center) has     1 elements
+Select a group: Selected 0: 'System'
+Reading frame       0 time    0.000   
+Precision of 28-input.xtc is 0.001 (nm)
+ ->  frame      0 time    0.000      Reading frame       1 time  800.000    ->  frame      1 time  800.000      Reading frame       2 time 1600.000    ->  frame      2 time 1600.000      Reading frame       3 time 2400.000    ->  frame      3 time 2400.000      Reading frame       4 time 3200.000    ->  frame      4 time 3200.000      Reading frame       5 time 4000.000    ->  frame      5 time 4000.000      Reading frame       6 time 4800.000    ->  frame      6 time 4800.000      Reading frame       7 time 5600.000    ->  frame      7 time 5600.000      Reading frame       8 time 6400.000    ->  frame      8 time 6400.000      Reading frame       9 time 7200.000    ->  frame      9 time 7200.000      Reading frame      10 time 8000.000    ->  frame     10 time 8000.000      Reading frame      11 time 8800.000   Reading frame      12 time 9600.000   Reading frame      13 time 10400.000   Reading frame      14 time 11200.000   Reading frame      15 time 12000.000   Reading frame      16 time 12800.000   Reading frame      17 time 13600.000   Reading frame      18 time 14400.000   Reading frame      19 time 15200.000   Reading frame      20 time 16000.000    ->  frame     20 time 16000.000      Reading frame      30 time 24000.000    ->  frame     30 time 24000.000      Reading frame      40 time 32000.000    ->  frame     40 time 32000.000      Reading frame      50 time 40000.000    ->  frame     50 time 40000.000      Reading frame      60 time 48000.000    ->  frame     60 time 48000.000      Reading frame      70 time 56000.000    ->  frame     70 time 56000.000      Reading frame      80 time 64000.000    ->  frame     80 time 64000.000      Reading frame      90 time 72000.000    ->  frame     90 time 72000.000      Reading frame     100 time 80000.000    ->  frame    100 time 80000.000      Last frame        100 time 80000.000   
+
+
+GROMACS reminds you: "Nobody Never Learnt No-Nothing from No History" (Gogol Bordello)
+
+                     :-) GROMACS - gmx trjconv, 2019.6 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx trjconv, version 2019.6
+Executable:   /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen2/gcc-10.2.0/gromacs-2019.6-ymqzlo5624lcf5xcrs5wx5vy43r4m2pn/bin/gmx_mpi
+Data prefix:  /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen2/gcc-10.2.0/gromacs-2019.6-ymqzlo5624lcf5xcrs5wx5vy43r4m2pn
+Working dir:  /scratch/YYYYY/job_13732872/Parent_0_1/Vesicle_Render
+Command line:
+  gmx_mpi trjconv -f centered.gro -s centered.gro -o DPPC_centered.gro
+
+Note that major changes are planned in future for trjconv, to improve usability and utility.
+Will write gro: Coordinate file in Gromos-87 format
+Select group for output
+Group     0 (         System) has 1020890 elements
+Group     1 (          Other) has 1020890 elements
+Group     2 (            DEN) has  4992 elements
+Group     3 (           DPPC) has 34932 elements
+Group     4 (              W) has 882870 elements
+Group     5 (             WF) has 98096 elements
+Select a group: Selected 3: 'DPPC'
+Reading frames from gro file '3000 lipid bilayer in water t=   0.00000 step= 0', 1020890 atoms.
+Reading frame       0 time    0.000   
+Precision of centered.gro is 0.001 (nm)
+ ->  frame      0 time    0.000      Reading frame       1 time  800.000    ->  frame      1 time  800.000      Reading frame       2 time 1600.000    ->  frame      2 time 1600.000      Reading frame       3 time 2400.000    ->  frame      3 time 2400.000      Reading frame       4 time 3200.000    ->  frame      4 time 3200.000      Reading frame       5 time 4000.000    ->  frame      5 time 4000.000      Reading frame       6 time 4800.000    ->  frame      6 time 4800.000      Reading frame       7 time 5600.000    ->  frame      7 time 5600.000      Reading frame       8 time 6400.000    ->  frame      8 time 6400.000      Reading frame       9 time 7200.000    ->  frame      9 time 7200.000      Reading frame      10 time 8000.000    ->  frame     10 time 8000.000      Reading frame      11 time 8800.000   Reading frame      12 time 9600.000   Reading frame      13 time 10400.000   Reading frame      14 time 11200.000   Reading frame      15 time 12000.000   Reading frame      16 time 12800.000   Reading frame      17 time 13600.000   Reading frame      18 time 14400.000   Reading frame      19 time 15200.000   Reading frame      20 time 16000.000    ->  frame     20 time 16000.000      Reading frame      30 time 24000.000    ->  frame     30 time 24000.000      Reading frame      40 time 32000.000    ->  frame     40 time 32000.000      Reading frame      50 time 40000.000    ->  frame     50 time 40000.000      Reading frame      60 time 48000.000    ->  frame     60 time 48000.000      Reading frame      70 time 56000.000    ->  frame     70 time 56000.000      Reading frame      80 time 64000.000    ->  frame     80 time 64000.000      Reading frame      90 time 72000.000    ->  frame     90 time 72000.000      Reading frame     100 time 80000.000    ->  frame    100 time 80000.000      Last frame        100 time 80000.000   
+
+
+GROMACS reminds you: "If I Wanted You to Understand This, I Would Explain it Better" (J. Cruijff)
+
+                     :-) GROMACS - gmx trjconv, 2019.6 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx trjconv, version 2019.6
+Executable:   /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen2/gcc-10.2.0/gromacs-2019.6-ymqzlo5624lcf5xcrs5wx5vy43r4m2pn/bin/gmx_mpi
+Data prefix:  /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen2/gcc-10.2.0/gromacs-2019.6-ymqzlo5624lcf5xcrs5wx5vy43r4m2pn
+Working dir:  /scratch/YYYYY/job_13732872/Parent_0_1/Vesicle_Render
+Command line:
+  gmx_mpi trjconv -f centered.gro -s centered.gro -o DEN_centered.gro
+
+Note that major changes are planned in future for trjconv, to improve usability and utility.
+Will write gro: Coordinate file in Gromos-87 format
+Select group for output
+Group     0 (         System) has 1020890 elements
+Group     1 (          Other) has 1020890 elements
+Group     2 (            DEN) has  4992 elements
+Group     3 (           DPPC) has 34932 elements
+Group     4 (              W) has 882870 elements
+Group     5 (             WF) has 98096 elements
+Select a group: Selected 2: 'DEN'
+Reading frames from gro file '3000 lipid bilayer in water t=   0.00000 step= 0', 1020890 atoms.
+Reading frame       0 time    0.000   
+Precision of centered.gro is 0.001 (nm)
+ ->  frame      0 time    0.000      Reading frame       1 time  800.000    ->  frame      1 time  800.000      Reading frame       2 time 1600.000    ->  frame      2 time 1600.000      Reading frame       3 time 2400.000    ->  frame      3 time 2400.000      Reading frame       4 time 3200.000    ->  frame      4 time 3200.000      Reading frame       5 time 4000.000    ->  frame      5 time 4000.000      Reading frame       6 time 4800.000    ->  frame      6 time 4800.000      Reading frame       7 time 5600.000    ->  frame      7 time 5600.000      Reading frame       8 time 6400.000    ->  frame      8 time 6400.000      Reading frame       9 time 7200.000    ->  frame      9 time 7200.000      Reading frame      10 time 8000.000    ->  frame     10 time 8000.000      Reading frame      11 time 8800.000   Reading frame      12 time 9600.000   Reading frame      13 time 10400.000   Reading frame      14 time 11200.000   Reading frame      15 time 12000.000   Reading frame      16 time 12800.000   Reading frame      17 time 13600.000   Reading frame      18 time 14400.000   Reading frame      19 time 15200.000   Reading frame      20 time 16000.000    ->  frame     20 time 16000.000      Reading frame      30 time 24000.000    ->  frame     30 time 24000.000      Reading frame      40 time 32000.000    ->  frame     40 time 32000.000      Reading frame      50 time 40000.000    ->  frame     50 time 40000.000      Reading frame      60 time 48000.000    ->  frame     60 time 48000.000      Reading frame      70 time 56000.000    ->  frame     70 time 56000.000      Reading frame      80 time 64000.000    ->  frame     80 time 64000.000      Reading frame      90 time 72000.000    ->  frame     90 time 72000.000      Reading frame     100 time 80000.000    ->  frame    100 time 80000.000      Last frame        100 time 80000.000   
+
+
+GROMACS reminds you: "Insane In Tha Membrane" (Cypress Hill)
+
+rm: cannot remove 'centered.gro': No such file or directory
+The name of the file is DPPC_centered.gro
+No. of elements in a single frame is 34932
+No. of elements in a single molecule is 12
+No. of frames in trajectory is 101
+Dimensions of box is 51.62756 51.62756 51.71237
+
+Reading Dendrons......
+
+The name of the file is DEN_centered.gro
+No. of elements in a single frame is 4992
+No. of elements in a single molecule is 39
+No. of frames in trajectory is 101
+Dimensions of box is 51.62756 51.62756 51.71237
+Reading Mol1......
+
+No. of elements in a single frame is 34932
+No. of elements in a single molecule is 12
+No. of frames in trajectory is 101
+Groups under consideration for interaction count PO4
+Reading Mol2......
+
+No. of elements in a single frame is 4992
+No. of elements in a single molecule is 39
+No. of frames in trajectory is 101
+Groups under consideration for interaction count Qd
+Counting the TA-PO interactions
+
+Interacting TAs      Tot Num of TAs       Fraction of Interacting TAs
+288                  720                  0.4                 
+281                  720                  0.3902777777777778  
+292                  720                  0.40555555555555556 
+271                  712                  0.3806179775280899  
+276                  720                  0.38333333333333336 
+272                  728                  0.37362637362637363 
+255                  728                  0.35027472527472525 
+287                  728                  0.3942307692307692  
+281                  720                  0.3902777777777778  
+247                  720                  0.34305555555555556 
+272                  712                  0.38202247191011235 
+254                  720                  0.3527777777777778  
+276                  720                  0.38333333333333336 
+261                  720                  0.3625              
+261                  696                  0.375               
+275                  728                  0.37774725274725274 
+253                  720                  0.35138888888888886 
+224                  720                  0.3111111111111111  
+253                  720                  0.35138888888888886 
+256                  720                  0.35555555555555557 
+265                  720                  0.3680555555555556  
+275                  720                  0.3819444444444444  
+271                  720                  0.3763888888888889  
+289                  728                  0.39697802197802196 
+285                  712                  0.4002808988764045  
+262                  712                  0.36797752808988765 
+286                  720                  0.3972222222222222  
+260                  712                  0.3651685393258427  
+257                  720                  0.35694444444444445 
+262                  720                  0.3638888888888889  
+275                  720                  0.3819444444444444  
+284                  712                  0.398876404494382   
+285                  720                  0.3958333333333333  
+274                  720                  0.38055555555555554 
+261                  720                  0.3625              
+250                  720                  0.3472222222222222  
+265                  720                  0.3680555555555556  
+286                  712                  0.40168539325842695 
+272                  712                  0.38202247191011235 
+268                  704                  0.3806818181818182  
+276                  712                  0.38764044943820225 
+286                  712                  0.40168539325842695 
+261                  712                  0.36657303370786515 
+268                  704                  0.3806818181818182  
+261                  720                  0.3625              
+270                  712                  0.3792134831460674  
+254                  712                  0.35674157303370785 
+269                  712                  0.37780898876404495 
+288                  712                  0.4044943820224719  
+275                  712                  0.3862359550561798  
+256                  712                  0.3595505617977528  
+258                  704                  0.3664772727272727  
+250                  696                  0.35919540229885055 
+269                  704                  0.3821022727272727  
+281                  704                  0.3991477272727273  
+261                  704                  0.37073863636363635 
+269                  688                  0.39098837209302323 
+286                  696                  0.4109195402298851  
+278                  696                  0.3994252873563218  
+268                  704                  0.3806818181818182  
+282                  704                  0.4005681818181818  
+281                  704                  0.3991477272727273  
+278                  704                  0.39488636363636365 
+286                  688                  0.41569767441860467 
+282                  704                  0.4005681818181818  
+272                  704                  0.38636363636363635 
+270                  696                  0.3879310344827586  
+284                  704                  0.4034090909090909  
+284                  704                  0.4034090909090909  
+271                  704                  0.3849431818181818  
+277                  696                  0.39798850574712646 
+268                  696                  0.3850574712643678  
+278                  704                  0.39488636363636365 
+256                  704                  0.36363636363636365 
+271                  704                  0.3849431818181818  
+253                  704                  0.359375            
+279                  704                  0.3963068181818182  
+263                  704                  0.37357954545454547 
+290                  704                  0.4119318181818182  
+278                  696                  0.3994252873563218  
+260                  720                  0.3611111111111111  
+276                  728                  0.3791208791208791  
+286                  720                  0.3972222222222222  
+270                  720                  0.375               
+269                  712                  0.37780898876404495 
+261                  720                  0.3625              
+265                  720                  0.3680555555555556  
+285                  712                  0.4002808988764045  
+281                  728                  0.385989010989011   
+278                  720                  0.3861111111111111  
+255                  720                  0.3541666666666667  
+272                  720                  0.37777777777777777 
+284                  728                  0.3901098901098901  
+277                  728                  0.3804945054945055  
+267                  720                  0.37083333333333335 
+264                  712                  0.3707865168539326  
+264                  728                  0.3626373626373626  
+270                  728                  0.3708791208791209  
+266                  720                  0.36944444444444446 
+272                  712                  0.38202247191011235 
+277                  720                  0.38472222222222224 
+Reading Mol1......
+
+No. of elements in a single frame is 4992
+No. of elements in a single molecule is 39
+No. of frames in trajectory is 101
+Groups under consideration for interaction count Qd
+Reading Mol2......
+
+No. of elements in a single frame is 4992
+No. of elements in a single molecule is 39
+No. of frames in trajectory is 101
+Groups under consideration for interaction count Qd
+Counting the TA-TA interactions
+
+Interacting TAs      Tot Num of TAs       Fraction of Interacting TAs
+116                  720                  0.16111111111111112 
+120                  720                  0.16666666666666666 
+114                  720                  0.15833333333333333 
+110                  712                  0.1544943820224719  
+117                  720                  0.1625              
+109                  728                  0.14972527472527472 
+99                   728                  0.13598901098901098 
+108                  728                  0.14835164835164835 
+130                  720                  0.18055555555555555 
+113                  720                  0.15694444444444444 
+104                  712                  0.14606741573033707 
+113                  720                  0.15694444444444444 
+123                  720                  0.17083333333333334 
+124                  720                  0.17222222222222222 
+109                  696                  0.15660919540229884 
+110                  728                  0.1510989010989011  
+96                   720                  0.13333333333333333 
+97                   720                  0.13472222222222222 
+111                  720                  0.15416666666666667 
+117                  720                  0.1625              
+112                  720                  0.15555555555555556 
+118                  720                  0.1638888888888889  
+125                  720                  0.1736111111111111  
+101                  728                  0.13873626373626374 
+105                  712                  0.14747191011235955 
+106                  712                  0.14887640449438203 
+121                  720                  0.16805555555555557 
+101                  712                  0.14185393258426968 
+98                   720                  0.1361111111111111  
+111                  720                  0.15416666666666667 
+108                  720                  0.15                
+108                  712                  0.15168539325842698 
+118                  720                  0.1638888888888889  
+106                  720                  0.14722222222222223 
+95                   720                  0.13194444444444445 
+101                  720                  0.14027777777777778 
+96                   720                  0.13333333333333333 
+98                   712                  0.13764044943820225 
+119                  712                  0.16713483146067415 
+105                  704                  0.14914772727272727 
+109                  712                  0.15308988764044945 
+129                  712                  0.18117977528089887 
+128                  712                  0.1797752808988764  
+106                  704                  0.15056818181818182 
+100                  720                  0.1388888888888889  
+111                  712                  0.15589887640449437 
+112                  712                  0.15730337078651685 
+115                  712                  0.16151685393258428 
+97                   712                  0.13623595505617977 
+110                  712                  0.1544943820224719  
+108                  712                  0.15168539325842698 
+124                  704                  0.17613636363636365 
+104                  696                  0.14942528735632185 
+104                  704                  0.14772727272727273 
+111                  704                  0.15767045454545456 
+114                  704                  0.16193181818181818 
+113                  688                  0.16424418604651161 
+89                   696                  0.1278735632183908  
+103                  696                  0.14798850574712644 
+104                  704                  0.14772727272727273 
+87                   704                  0.12357954545454546 
+105                  704                  0.14914772727272727 
+123                  704                  0.1747159090909091  
+99                   688                  0.1438953488372093  
+107                  704                  0.15198863636363635 
+116                  704                  0.16477272727272727 
+102                  696                  0.14655172413793102 
+105                  704                  0.14914772727272727 
+110                  704                  0.15625             
+95                   704                  0.13494318181818182 
+96                   696                  0.13793103448275862 
+89                   696                  0.1278735632183908  
+105                  704                  0.14914772727272727 
+125                  704                  0.17755681818181818 
+128                  704                  0.18181818181818182 
+104                  704                  0.14772727272727273 
+103                  704                  0.14630681818181818 
+106                  704                  0.15056818181818182 
+105                  704                  0.14914772727272727 
+100                  696                  0.14367816091954022 
+108                  720                  0.15                
+114                  728                  0.1565934065934066  
+112                  720                  0.15555555555555556 
+112                  720                  0.15555555555555556 
+117                  712                  0.16432584269662923 
+112                  720                  0.15555555555555556 
+108                  720                  0.15                
+120                  712                  0.16853932584269662 
+110                  728                  0.1510989010989011  
+101                  720                  0.14027777777777778 
+97                   720                  0.13472222222222222 
+105                  720                  0.14583333333333334 
+98                   728                  0.1346153846153846  
+97                   728                  0.13324175824175824 
+94                   720                  0.13055555555555556 
+114                  712                  0.1601123595505618  
+114                  728                  0.1565934065934066  
+101                  728                  0.13873626373626374 
+111                  720                  0.15416666666666667 
+109                  712                  0.15308988764044945 
+128                  720                  0.17777777777777778 
+
+
+Reading Mol1......
+
+No. of elements in a single frame is 4992
+No. of elements in a single molecule is 39
+No. of frames in trajectory is 101
+Groups under consideration for interaction count Qd
+Reading Mol2......
+
+No. of elements in a single frame is 34932
+No. of elements in a single molecule is 12
+No. of frames in trajectory is 101
+Groups under consideration for interaction count PO4
+Counting the DPPC head -TA interactions
+
+Interacting DPPC heads         Tot Num of DPPC heads          Fraction of Interacting DPPC heads
+1404                           3500                           0.40114285714285713           
+1325                           3502                           0.37835522558537976           
+1381                           3506                           0.39389617798060467           
+1329                           3514                           0.37820147979510527           
+1297                           3522                           0.3682566723452584            
+1281                           3524                           0.36350737797956867           
+1246                           3538                           0.35217637083097797           
+1299                           3536                           0.3673642533936652            
+1320                           3522                           0.3747870528109029            
+1178                           3516                           0.33503981797497157           
+1331                           3504                           0.379851598173516             
+1233                           3516                           0.3506825938566553            
+1269                           3508                           0.3617445838084379            
+1258                           3500                           0.35942857142857143           
+1274                           3502                           0.36379211878926326           
+1258                           3508                           0.35860889395667045           
+1180                           3500                           0.33714285714285713           
+1183                           3498                           0.3381932532875929            
+1255                           3498                           0.35877644368210404           
+1243                           3494                           0.3557527189467659            
+1349                           3498                           0.38564894225271584           
+1335                           3502                           0.3812107367218732            
+1332                           3508                           0.37970353477765106           
+1364                           3520                           0.3875                        
+1416                           3502                           0.40434037692747              
+1257                           3510                           0.3581196581196581            
+1346                           3502                           0.384351798972016             
+1225                           3492                           0.3508018327605956            
+1238                           3488                           0.35493119266055045           
+1284                           3484                           0.3685419058553387            
+1407                           3496                           0.40245995423340963           
+1377                           3494                           0.3941041785918718            
+1392                           3484                           0.399540757749713             
+1406                           3482                           0.4037909247558874            
+1299                           3478                           0.3734905117883841            
+1286                           3480                           0.36954022988505747           
+1314                           3478                           0.37780333525014376           
+1316                           3474                           0.3788140472078296            
+1316                           3466                           0.37968840161569534           
+1297                           3476                           0.3731300345224396            
+1418                           3474                           0.408175014392631             
+1346                           3478                           0.38700402530189765           
+1300                           3468                           0.3748558246828143            
+1324                           3472                           0.3813364055299539            
+1312                           3486                           0.3763625932300631            
+1302                           3498                           0.37221269296740994           
+1236                           3488                           0.3543577981651376            
+1339                           3482                           0.3845491097070649            
+1366                           3478                           0.3927544565842438            
+1326                           3468                           0.38235294117647056           
+1258                           3468                           0.3627450980392157            
+1320                           3474                           0.3799654576856649            
+1217                           3488                           0.3489105504587156            
+1316                           3472                           0.3790322580645161            
+1352                           3466                           0.39007501442585113           
+1245                           3460                           0.3598265895953757            
+1297                           3464                           0.37442263279445726           
+1326                           3454                           0.38390272148233934           
+1356                           3454                           0.3925883034163289            
+1312                           3460                           0.3791907514450867            
+1391                           3460                           0.40202312138728324           
+1378                           3466                           0.39757645701096367           
+1364                           3466                           0.3935372186959031            
+1381                           3462                           0.39890236857307915           
+1316                           3464                           0.37990762124711314           
+1277                           3476                           0.36737629459148446           
+1298                           3474                           0.37363270005757054           
+1323                           3484                           0.37973593570608494           
+1370                           3494                           0.3921007441327991            
+1284                           3486                           0.3683304647160069            
+1352                           3484                           0.3880597014925373            
+1333                           3482                           0.3828259620907524            
+1328                           3480                           0.3816091954022989            
+1188                           3470                           0.34236311239193085           
+1319                           3464                           0.3807736720554272            
+1288                           3468                           0.37139561707035756           
+1288                           3482                           0.36990235496840895           
+1360                           3490                           0.38968481375358166           
+1389                           3498                           0.39708404802744424           
+1331                           3504                           0.379851598173516             
+1309                           3506                           0.37335995436394753           
+1349                           3520                           0.38323863636363636           
+1380                           3524                           0.39160045402951194           
+1315                           3524                           0.373155505107832             
+1338                           3518                           0.3803297328027288            
+1264                           3528                           0.35827664399092973           
+1296                           3532                           0.3669309173272933            
+1319                           3526                           0.3740782756664776            
+1323                           3540                           0.373728813559322             
+1282                           3538                           0.36235161107970604           
+1232                           3534                           0.3486134691567629            
+1256                           3522                           0.35661555934128336           
+1262                           3524                           0.35811577752553914           
+1292                           3538                           0.36517806670435277           
+1339                           3528                           0.3795351473922903            
+1293                           3528                           0.3664965986394558            
+1330                           3540                           0.3757062146892655            
+1350                           3540                           0.3813559322033898            
+1268                           3544                           0.3577878103837472            
+1338                           3532                           0.37882219705549264           
+1348                           3526                           0.3823028927963698            
+Reading Mol1......
+
+No. of elements in a single frame is 4992
+No. of elements in a single molecule is 39
+No. of frames in trajectory is 101
+Groups under consideration for interaction count Qd
+Reading Mol2......
+
+No. of elements in a single frame is 34932
+No. of elements in a single molecule is 12
+No. of frames in trajectory is 101
+Groups under consideration for interaction count PO4
+Counting the DPPC head - All DEN beads interactions
+
+Interacting DPPC heads         Tot Num of DPPC heads          Fraction of Interacting DPPC heads
+1924                           3500                           0.5497142857142857            
+1882                           3502                           0.537407195888064             
+1933                           3506                           0.5513405590416429            
+1885                           3514                           0.5364257256687536            
+1869                           3522                           0.530664395229983             
+1866                           3524                           0.5295119182746879            
+1822                           3538                           0.5149802148106275            
+1833                           3536                           0.5183823529411765            
+1823                           3522                           0.5176036342986939            
+1832                           3516                           0.5210466439135382            
+1855                           3504                           0.5293949771689498            
+1793                           3516                           0.5099544937428896            
+1866                           3508                           0.5319270239452679            
+1859                           3500                           0.5311428571428571            
+1816                           3502                           0.5185608223872074            
+1819                           3508                           0.5185290763968073            
+1803                           3500                           0.5151428571428571            
+1796                           3498                           0.5134362492853058            
+1829                           3498                           0.5228702115494568            
+1822                           3494                           0.5214653692043503            
+1889                           3498                           0.5400228702115495            
+1889                           3502                           0.5394060536836094            
+1928                           3508                           0.5496009122006842            
+1934                           3520                           0.5494318181818182            
+1980                           3502                           0.5653912050256996            
+1875                           3510                           0.5341880341880342            
+1896                           3502                           0.5414049114791548            
+1807                           3492                           0.5174684994272624            
+1860                           3488                           0.533256880733945             
+1906                           3484                           0.5470723306544202            
+1945                           3496                           0.556350114416476             
+1978                           3494                           0.5661133371493989            
+1957                           3484                           0.5617106773823192            
+2028                           3482                           0.5824238943136129            
+1922                           3478                           0.5526164462334675            
+1872                           3480                           0.5379310344827586            
+1925                           3478                           0.5534790109258194            
+1920                           3474                           0.5526770293609672            
+1926                           3466                           0.5556837853433353            
+1864                           3476                           0.5362485615650172            
+1899                           3474                           0.5466321243523317            
+1906                           3478                           0.5480161012075906            
+1847                           3468                           0.5325836216839677            
+1898                           3472                           0.5466589861751152            
+1876                           3486                           0.5381526104417671            
+1871                           3498                           0.5348770726129217            
+1837                           3488                           0.5266628440366973            
+1943                           3482                           0.558012636415853             
+1920                           3478                           0.5520414031052329            
+1880                           3468                           0.5420991926182238            
+1818                           3468                           0.5242214532871973            
+1889                           3474                           0.5437535981577433            
+1797                           3488                           0.5151949541284404            
+1911                           3472                           0.5504032258064516            
+1909                           3466                           0.5507789959607616            
+1798                           3460                           0.5196531791907515            
+1860                           3464                           0.5369515011547344            
+1902                           3454                           0.5506658946149392            
+1880                           3454                           0.5442964678633468            
+1884                           3460                           0.5445086705202312            
+1933                           3460                           0.5586705202312139            
+1892                           3466                           0.5458742065781881            
+1965                           3466                           0.566935949221004             
+1913                           3462                           0.5525707683419988            
+1892                           3464                           0.546189376443418             
+1873                           3476                           0.5388377445339471            
+1866                           3474                           0.5371329879101899            
+1913                           3484                           0.549081515499426             
+1966                           3494                           0.5626788780767029            
+1909                           3486                           0.5476190476190477            
+1902                           3484                           0.5459242250287026            
+1930                           3482                           0.5542791499138426            
+1944                           3480                           0.5586206896551724            
+1827                           3470                           0.5265129682997118            
+1877                           3464                           0.5418591224018475            
+1866                           3468                           0.5380622837370242            
+1870                           3482                           0.5370476737507179            
+1941                           3490                           0.5561604584527221            
+1946                           3498                           0.5563178959405375            
+1900                           3504                           0.5422374429223744            
+1845                           3506                           0.5262407301768397            
+1913                           3520                           0.5434659090909091            
+1936                           3524                           0.5493757094211124            
+1854                           3524                           0.5261066969353008            
+1857                           3518                           0.5278567367822626            
+1817                           3528                           0.5150226757369615            
+1876                           3532                           0.5311438278595696            
+1911                           3526                           0.5419739081111742            
+1892                           3540                           0.5344632768361582            
+1863                           3538                           0.5265686828716789            
+1851                           3534                           0.5237691001697793            
+1866                           3522                           0.5298126064735945            
+1897                           3524                           0.5383087400681045            
+1894                           3538                           0.5353306953080836            
+1928                           3528                           0.546485260770975             
+1867                           3528                           0.5291950113378685            
+1914                           3540                           0.5406779661016949            
+1916                           3540                           0.5412429378531074            
+1874                           3544                           0.5287810383747178            
+1871                           3532                           0.5297281993204983            
+1897                           3526                           0.5380034032898469            
+Reading Mol1......
+
+No. of elements in a single frame is 34932
+No. of elements in a single molecule is 12
+No. of frames in trajectory is 101
+Groups under consideration for finding effective radius PO4
+Reading Mol1......
+
+No. of elements in a single frame is 4992
+No. of elements in a single molecule is 39
+No. of frames in trajectory is 101
+Groups under consideration for finding effective radius Qd
+Reading Mol1......
+
+No. of elements in a single frame is 4992
+No. of elements in a single molecule is 39
+No. of frames in trajectory is 101
+Groups under consideration for finding effective radius P3
+Reading Mol1......
+
+No. of elements in a single frame is 4992
+No. of elements in a single molecule is 39
+No. of frames in trajectory is 101
+Groups under consideration for finding effective radius N0
+Reading Mol1......
+
+No. of elements in a single frame is 4992
+No. of elements in a single molecule is 39
+No. of frames in trajectory is 101
+Groups under consideration for finding effective radius Qd
+Reading Mol1......
+
+No. of elements in a single frame is 4992
+No. of elements in a single molecule is 39
+No. of frames in trajectory is 101
+Groups under consideration for finding effective radius P3
+Reading Mol1......
+
+No. of elements in a single frame is 4992
+No. of elements in a single molecule is 39
+No. of frames in trajectory is 101
+Groups under consideration for finding effective radius N0
+Reading Mol1......
+
+No. of elements in a single frame is 4992
+No. of elements in a single molecule is 39
+No. of frames in trajectory is 101
+Groups under consideration for finding effective radius ALL
+Reading Mol1......
+
+No. of elements in a single frame is 4992
+No. of elements in a single molecule is 39
+No. of frames in trajectory is 101
+Groups under consideration for finding effective radius Qd
+Reading Mol1......
+
+No. of elements in a single frame is 4992
+No. of elements in a single molecule is 39
+No. of frames in trajectory is 101
+Groups under consideration for finding effective radius Qd
+Reading Mol1......
+
+No. of elements in a single frame is 4992
+No. of elements in a single molecule is 39
+No. of frames in trajectory is 101
+Groups under consideration for finding effective radius P3
+Reading Mol1......
+
+No. of elements in a single frame is 4992
+No. of elements in a single molecule is 39
+No. of frames in trajectory is 101
+Groups under consideration for finding effective radius P3
+Reading Mol1......
+
+No. of elements in a single frame is 4992
+No. of elements in a single molecule is 39
+No. of frames in trajectory is 101
+Groups under consideration for finding effective radius N0
+Reading Mol1......
+
+No. of elements in a single frame is 4992
+No. of elements in a single molecule is 39
+No. of frames in trajectory is 101
+Groups under consideration for finding effective radius N0
+rm: cannot remove '24-input.gro': No such file or directory
+rm: cannot remove '28-input.xtc': No such file or directory

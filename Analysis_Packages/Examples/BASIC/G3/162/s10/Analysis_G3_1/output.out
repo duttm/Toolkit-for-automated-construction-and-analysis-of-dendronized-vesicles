@@ -1,0 +1,372 @@
+24-input.gro is here
+28-input.xtc is here
+                     :-) GROMACS - gmx trjconv, 2019.6 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx trjconv, version 2019.6
+Executable:   /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen2/gcc-10.2.0/gromacs-2019.6-ymqzlo5624lcf5xcrs5wx5vy43r4m2pn/bin/gmx_mpi
+Data prefix:  /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen2/gcc-10.2.0/gromacs-2019.6-ymqzlo5624lcf5xcrs5wx5vy43r4m2pn
+Working dir:  /scratch/YYYYY/job_13356976/Parent/Vesicle_Render
+Command line:
+  gmx_mpi trjconv -f 24-input.gro -s 24-input.gro -o start_DPPC.gro
+
+Note that major changes are planned in future for trjconv, to improve usability and utility.
+Will write gro: Coordinate file in Gromos-87 format
+Select group for output
+Group     0 (         System) has 1021124 elements
+Group     1 (          Other) has 1021124 elements
+Group     2 (            DEN) has  6279 elements
+Group     3 (           DPPC) has 34536 elements
+Group     4 (              W) has 882279 elements
+Group     5 (             WF) has 98030 elements
+Select a group: Selected 3: 'DPPC'
+Reading frames from gro file '3000 lipid bilayer in water t= 300000.00000 step= 30000000', 1021124 atoms.
+Reading frame       0 time 300000.000   
+Precision of 24-input.gro is 0.001 (nm)
+ ->  frame      0 time 300000.000      Last frame          0 time 300000.000   
+
+
+GROMACS reminds you: "Baseball Heroes Only" (P.J. Harvey)
+
+The name of the file is start_DPPC.gro
+No. of elements in a single frame is 34536
+No. of elements in a single molecule is 12
+No. of frames in trajectory is 1
+Dimensions of box is 51.60559 51.60559 51.76879
+rm: cannot remove 'index.ndx': No such file or directory
+rm: cannot remove 'index_mod.ndx': No such file or directory
+                     :-) GROMACS - gmx trjconv, 2019.6 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx trjconv, version 2019.6
+Executable:   /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen2/gcc-10.2.0/gromacs-2019.6-ymqzlo5624lcf5xcrs5wx5vy43r4m2pn/bin/gmx_mpi
+Data prefix:  /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen2/gcc-10.2.0/gromacs-2019.6-ymqzlo5624lcf5xcrs5wx5vy43r4m2pn
+Working dir:  /scratch/YYYYY/job_13356976/Parent/Creater_ndx
+Command line:
+  gmx_mpi trjconv -f 24-input.gro -s 24-input.gro -o DEN.gro
+
+Note that major changes are planned in future for trjconv, to improve usability and utility.
+Will write gro: Coordinate file in Gromos-87 format
+Select group for output
+Group     0 (         System) has 1021124 elements
+Group     1 (          Other) has 1021124 elements
+Group     2 (            DEN) has  6279 elements
+Group     3 (           DPPC) has 34536 elements
+Group     4 (              W) has 882279 elements
+Group     5 (             WF) has 98030 elements
+Select a group: Selected 2: 'DEN'
+Reading frames from gro file '3000 lipid bilayer in water t= 300000.00000 step= 30000000', 1021124 atoms.
+Reading frame       0 time 300000.000   
+Precision of 24-input.gro is 0.001 (nm)
+ ->  frame      0 time 300000.000      Last frame          0 time 300000.000   
+
+
+GROMACS reminds you: "Suzy is a headbanger, her mother is a geek" (The Ramones)
+
+                     :-) GROMACS - gmx make_ndx, 2019.6 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx make_ndx, version 2019.6
+Executable:   /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen2/gcc-10.2.0/gromacs-2019.6-ymqzlo5624lcf5xcrs5wx5vy43r4m2pn/bin/gmx_mpi
+Data prefix:  /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen2/gcc-10.2.0/gromacs-2019.6-ymqzlo5624lcf5xcrs5wx5vy43r4m2pn
+Working dir:  /scratch/YYYYY/job_13356976/Parent/Creater_ndx
+Command line:
+  gmx_mpi make_ndx -f 24-input.gro -o index.ndx
+
+
+Reading structure file
+Going to read 0 old index file(s)
+Analysing residue names:
+There are: 983348      Other residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+  0 System              : 1021124 atoms
+  1 Other               : 1021124 atoms
+  2 DEN                 :  6279 atoms
+  3 DPPC                : 34536 atoms
+  4 W                   : 882279 atoms
+  5 WF                  : 98030 atoms
+
+ nr : group      '!': not  'name' nr name   'splitch' nr    Enter: list groups
+ 'a': atom       '&': and  'del' nr         'splitres' nr   'l': list residues
+ 't': atom type  '|': or   'keep' nr        'splitat' nr    'h': help
+ 'r': residue              'res' nr         'chain' char
+ "name": group             'case': case sensitive           'q': save and quit
+ 'ri': residue index
+
+> 
+
+GROMACS reminds you: "C has the power of assembly language and the convenience of... assembly language." (Dennis Ritchie)
+
+We are going to center as per coordinate: 40695
+                     :-) GROMACS - gmx trjconv, 2019.6 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx trjconv, version 2019.6
+Executable:   /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen2/gcc-10.2.0/gromacs-2019.6-ymqzlo5624lcf5xcrs5wx5vy43r4m2pn/bin/gmx_mpi
+Data prefix:  /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen2/gcc-10.2.0/gromacs-2019.6-ymqzlo5624lcf5xcrs5wx5vy43r4m2pn
+Working dir:  /scratch/YYYYY/job_13356976/Parent/Creater_ndx
+Command line:
+  gmx_mpi trjconv -f 28-input.xtc -s 24-input.gro -o centered.gro -pbc atom -center -ur compact -n index_mod.ndx -skip 1
+
+Note that major changes are planned in future for trjconv, to improve usability and utility.
+Will write gro: Coordinate file in Gromos-87 format
+Select group for centering
+Group     0 (         System) has 1021124 elements
+Group     1 (          Other) has 1021124 elements
+Group     2 (            DEN) has  6279 elements
+Group     3 (           DPPC) has 34536 elements
+Group     4 (              W) has 882279 elements
+Group     5 (             WF) has 98030 elements
+Group     6 (         center) has     1 elements
+Select a group: Selected 6: 'center'
+Select group for output
+Group     0 (         System) has 1021124 elements
+Group     1 (          Other) has 1021124 elements
+Group     2 (            DEN) has  6279 elements
+Group     3 (           DPPC) has 34536 elements
+Group     4 (              W) has 882279 elements
+Group     5 (             WF) has 98030 elements
+Group     6 (         center) has     1 elements
+Select a group: Selected 0: 'System'
+Reading frame       0 time    0.000   
+Precision of 28-input.xtc is 0.001 (nm)
+ ->  frame      0 time    0.000      Reading frame       1 time  800.000    ->  frame      1 time  800.000      Reading frame       2 time 1600.000    ->  frame      2 time 1600.000      Reading frame       3 time 2400.000    ->  frame      3 time 2400.000      Reading frame       4 time 3200.000    ->  frame      4 time 3200.000      Reading frame       5 time 4000.000    ->  frame      5 time 4000.000      Reading frame       6 time 4800.000    ->  frame      6 time 4800.000      Reading frame       7 time 5600.000    ->  frame      7 time 5600.000      Reading frame       8 time 6400.000    ->  frame      8 time 6400.000      Reading frame       9 time 7200.000    ->  frame      9 time 7200.000      Reading frame      10 time 8000.000    ->  frame     10 time 8000.000      Reading frame      11 time 8800.000   Reading frame      12 time 9600.000   Reading frame      13 time 10400.000   Reading frame      14 time 11200.000   Reading frame      15 time 12000.000   Reading frame      16 time 12800.000   Reading frame      17 time 13600.000   Reading frame      18 time 14400.000   Reading frame      19 time 15200.000   Reading frame      20 time 16000.000    ->  frame     20 time 16000.000      Reading frame      30 time 24000.000    ->  frame     30 time 24000.000      Reading frame      40 time 32000.000    ->  frame     40 time 32000.000      Reading frame      50 time 40000.000    ->  frame     50 time 40000.000      Reading frame      60 time 48000.000    ->  frame     60 time 48000.000      Reading frame      70 time 56000.000    ->  frame     70 time 56000.000      Reading frame      80 time 64000.000    ->  frame     80 time 64000.000      Reading frame      90 time 72000.000    ->  frame     90 time 72000.000      Reading frame     100 time 80000.000    ->  frame    100 time 80000.000      Last frame        100 time 80000.000   
+
+
+GROMACS reminds you: "Read me your scripture and I will twist it" (Red Hot Chili Peppers)
+
+                     :-) GROMACS - gmx trjconv, 2019.6 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx trjconv, version 2019.6
+Executable:   /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen2/gcc-10.2.0/gromacs-2019.6-ymqzlo5624lcf5xcrs5wx5vy43r4m2pn/bin/gmx_mpi
+Data prefix:  /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen2/gcc-10.2.0/gromacs-2019.6-ymqzlo5624lcf5xcrs5wx5vy43r4m2pn
+Working dir:  /scratch/YYYYY/job_13356976/Parent_0_1/Vesicle_Render
+Command line:
+  gmx_mpi trjconv -f centered.gro -s centered.gro -o DPPC_centered.gro
+
+Note that major changes are planned in future for trjconv, to improve usability and utility.
+Will write gro: Coordinate file in Gromos-87 format
+Select group for output
+Group     0 (         System) has 1021124 elements
+Group     1 (          Other) has 1021124 elements
+Group     2 (            DEN) has  6279 elements
+Group     3 (           DPPC) has 34536 elements
+Group     4 (              W) has 882279 elements
+Group     5 (             WF) has 98030 elements
+Select a group: Selected 3: 'DPPC'
+Reading frames from gro file '3000 lipid bilayer in water t=   0.00000 step= 0', 1021124 atoms.
+Reading frame       0 time    0.000   
+Precision of centered.gro is 0.001 (nm)
+ ->  frame      0 time    0.000      Reading frame       1 time  800.000    ->  frame      1 time  800.000      Reading frame       2 time 1600.000    ->  frame      2 time 1600.000      Reading frame       3 time 2400.000    ->  frame      3 time 2400.000      Reading frame       4 time 3200.000    ->  frame      4 time 3200.000      Reading frame       5 time 4000.000    ->  frame      5 time 4000.000      Reading frame       6 time 4800.000    ->  frame      6 time 4800.000      Reading frame       7 time 5600.000    ->  frame      7 time 5600.000      Reading frame       8 time 6400.000    ->  frame      8 time 6400.000      Reading frame       9 time 7200.000    ->  frame      9 time 7200.000      Reading frame      10 time 8000.000    ->  frame     10 time 8000.000      Reading frame      11 time 8800.000   Reading frame      12 time 9600.000   Reading frame      13 time 10400.000   Reading frame      14 time 11200.000   Reading frame      15 time 12000.000   Reading frame      16 time 12800.000   Reading frame      17 time 13600.000   Reading frame      18 time 14400.000   Reading frame      19 time 15200.000   Reading frame      20 time 16000.000    ->  frame     20 time 16000.000      Reading frame      30 time 24000.000    ->  frame     30 time 24000.000      Reading frame      40 time 32000.000    ->  frame     40 time 32000.000      Reading frame      50 time 40000.000    ->  frame     50 time 40000.000      Reading frame      60 time 48000.000    ->  frame     60 time 48000.000      Reading frame      70 time 56000.000    ->  frame     70 time 56000.000      Reading frame      80 time 64000.000    ->  frame     80 time 64000.000      Reading frame      90 time 72000.000    ->  frame     90 time 72000.000      Reading frame     100 time 80000.000    ->  frame    100 time 80000.000      Last frame        100 time 80000.000   
+
+
+GROMACS reminds you: "Drugs are Bad, mmokay" (South Park)
+
+                     :-) GROMACS - gmx trjconv, 2019.6 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx trjconv, version 2019.6
+Executable:   /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen2/gcc-10.2.0/gromacs-2019.6-ymqzlo5624lcf5xcrs5wx5vy43r4m2pn/bin/gmx_mpi
+Data prefix:  /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen2/gcc-10.2.0/gromacs-2019.6-ymqzlo5624lcf5xcrs5wx5vy43r4m2pn
+Working dir:  /scratch/YYYYY/job_13356976/Parent_0_1/Vesicle_Render
+Command line:
+  gmx_mpi trjconv -f centered.gro -s centered.gro -o DEN_centered.gro
+
+Note that major changes are planned in future for trjconv, to improve usability and utility.
+Will write gro: Coordinate file in Gromos-87 format
+Select group for output
+Group     0 (         System) has 1021124 elements
+Group     1 (          Other) has 1021124 elements
+Group     2 (            DEN) has  6279 elements
+Group     3 (           DPPC) has 34536 elements
+Group     4 (              W) has 882279 elements
+Group     5 (             WF) has 98030 elements
+Select a group: Selected 2: 'DEN'
+Reading frames from gro file '3000 lipid bilayer in water t=   0.00000 step= 0', 1021124 atoms.
+Reading frame       0 time    0.000   
+Precision of centered.gro is 0.001 (nm)
+ ->  frame      0 time    0.000      Reading frame       1 time  800.000    ->  frame      1 time  800.000      Reading frame       2 time 1600.000    ->  frame      2 time 1600.000      Reading frame       3 time 2400.000    ->  frame      3 time 2400.000      Reading frame       4 time 3200.000    ->  frame      4 time 3200.000      Reading frame       5 time 4000.000    ->  frame      5 time 4000.000      Reading frame       6 time 4800.000    ->  frame      6 time 4800.000      Reading frame       7 time 5600.000    ->  frame      7 time 5600.000      Reading frame       8 time 6400.000    ->  frame      8 time 6400.000      Reading frame       9 time 7200.000    ->  frame      9 time 7200.000      Reading frame      10 time 8000.000    ->  frame     10 time 8000.000      Reading frame      11 time 8800.000   Reading frame      12 time 9600.000   Reading frame      13 time 10400.000   Reading frame      14 time 11200.000   Reading frame      15 time 12000.000   Reading frame      16 time 12800.000   Reading frame      17 time 13600.000   Reading frame      18 time 14400.000   Reading frame      19 time 15200.000   Reading frame      20 time 16000.000    ->  frame     20 time 16000.000      Reading frame      30 time 24000.000    ->  frame     30 time 24000.000      Reading frame      40 time 32000.000    ->  frame     40 time 32000.000      Reading frame      50 time 40000.000    ->  frame     50 time 40000.000      Reading frame      60 time 48000.000    ->  frame     60 time 48000.000      Reading frame      70 time 56000.000    ->  frame     70 time 56000.000      Reading frame      80 time 64000.000    ->  frame     80 time 64000.000      Reading frame      90 time 72000.000    ->  frame     90 time 72000.000      Reading frame     100 time 80000.000    ->  frame    100 time 80000.000      Last frame        100 time 80000.000   
+
+
+GROMACS reminds you: "Computers are like humans - they do everything except think." (John von Neumann)
+
+rm: cannot remove 'centered.gro': No such file or directory
+The name of the file is DPPC_centered.gro
+No. of elements in a single frame is 34536
+No. of elements in a single molecule is 12
+No. of frames in trajectory is 101
+Dimensions of box is 51.60223 51.60223 51.76542
+
+Reading Dendrons......
+
+The name of the file is DEN_centered.gro
+No. of elements in a single frame is 6279
+No. of elements in a single molecule is 39
+No. of frames in trajectory is 101
+Dimensions of box is 51.60223 51.60223 51.76542
+Reading Mol1......
+
+No. of elements in a single frame is 34536
+No. of elements in a single molecule is 12
+No. of frames in trajectory is 101
+Groups under consideration for finding effective radius NC3
+Reading Mol1......
+
+No. of elements in a single frame is 34536
+No. of elements in a single molecule is 12
+No. of frames in trajectory is 101
+Groups under consideration for finding effective radius GL1
+rm: cannot remove '24-input.gro': No such file or directory
+rm: cannot remove '28-input.xtc': No such file or directory

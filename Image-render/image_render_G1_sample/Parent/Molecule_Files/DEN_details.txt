@@ -1,0 +1,11 @@
+1.Name of File	DEN_centered.gro
+2.No of elements in a single molecule	15
+3.Type of molecule	PAMAM
+4.Molecule index file	Molecule_DEN.txt
+5.Which resdiue to use for seprartion of monolayers	N0Graft
+6.Residue for centering	N0Graft
+7.Group for interaction count	Qd
+8.File to read all dendron beads barring the tail	Molecule_DEN_ALL.txt
+9.Name tag for all dendron beads barring the tail	ALL
+10.Group2 for interaction count	P3
+11.Group3 for interaction count	N0

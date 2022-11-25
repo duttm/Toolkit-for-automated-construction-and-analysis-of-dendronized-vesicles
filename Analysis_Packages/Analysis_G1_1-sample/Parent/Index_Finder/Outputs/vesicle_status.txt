@@ -1,0 +1,2 @@
+Mean Radius	Outer_Ro	Outer_No	Inside_Ro	Inside_No	Expelled
+   9.434	   10.953	     1627	   7.069	    1045	      79

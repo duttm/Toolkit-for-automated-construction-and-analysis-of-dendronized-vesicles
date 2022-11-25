@@ -1,0 +1,20 @@
+#include "package/martini_v2.2_LeeLarson_2011.itp"
+#include "package/ions.itp"
+#include "G1_pH_new.itp"
+#include "package/martini_v2.0_lipids.itp"
+[ system ]
+; name
+3000 lipid bilayer in water
+
+[ molecules ]
+; name        
+
+DEN      49
+
+DPPC       2990
+
+Cl        196
+
+W               196122
+W           708638
+WF               100528

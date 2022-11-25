@@ -1,0 +1,55 @@
+#!/usr/bin/env bash
+#SBATCH --job-name=Analysis
+#SBATCH --account=XXXXX
+#SBATCH --partition=shared
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --mem=6G
+#SBATCH --time=05:00:00
+#SBATCH --output=output.out
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=YYYYY
+
+
+echo "${gro} is here"
+
+echo "${xtc} is here"
+
+Dest=Parent
+
+cp $gro $Dest/
+cp $xtc $Dest/
+
+export gro
+export xtc
+
+module load anaconda3/2020.11
+. $ANACONDA3HOME/etc/profile.d/conda.sh
+conda activate dcw_test
+## Please do "conda activate dcw_test" before running this script
+module purge
+module load slurm
+module load cpu
+module load gcc/10.2.0
+module load openmpi
+module load gromacs/2019.6
+
+
+gmx_exec="mpirun -np 1 gmx_mpi"
+python_exec="python"
+skip=1
+export gmx_exec
+export python_exec
+export skip
+
+cd $Dest/
+
+./Wrapper.bash $gro $xtc
+
+cd ../
+
+rm $gro 
+rm $xtc
+
+conda deactivate 
+

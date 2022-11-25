@@ -1,0 +1,3 @@
+Keep the vmd_package folder inside the working directory
+
+Usage: vmd_package/pleaseshowmeavesicle.bash <name of .vmd script> <name of gro file> <name of image file>

@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#SBATCH --job-name=compress
+#SBATCH --account=rut129
+#SBATCH --partition=shared
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --time=48:00:00
+#SBATCH --output=output.out
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=XXXXXXX
+
+
+## format
+
+##tar -czvf <name of tar file > <name of the folder to compress>
+
+tar -czvf multi-sim-launcher.tar.gz 7_14_2022/
+
+##can add more tar commands
+##tar -czvf and-calc.tar.gz 6_10_2022/

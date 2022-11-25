@@ -1,0 +1,29 @@
+#!/bin/bash
+#SBATCH -J compress
+#SBATCH -o compress.out
+#SBATCH -e compress.err
+#SBATCH -N 1
+#SBATCH -n 1
+#SBATCH -p normal
+#SBATCH -t 48:00:00
+#SBATCH -A XXXXXXXXXXXXXXX
+#SBATCH --mail-user=XXXXXXX
+#SBATCH --mail-type=all
+
+pwd
+date
+
+
+
+##tar -czvf <name of tar file > <name of the folder to compress>
+
+tar -czvf multi-sim-launcher.tar.gz 7_14_2022/
+
+##can add more tar commands
+##tar -czvf and-calc.tar.gz 6_10_2022/
+
+exit
+
+
+
+ 
