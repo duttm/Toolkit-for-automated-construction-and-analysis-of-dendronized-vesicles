@@ -18,3 +18,13 @@ This is a toolkit which enables the automated creation and analysis of dendroniz
 7. [Plots](Plots): Plot results using gnuplot
 
 8. [Image-render](Image-render): Create a high-throughput framework to generate vesicle images
+
+## Issues and Support
+
+If you believe you have found a bug, please open a ticket [here](https://github.com/duttm/Toolkit-for-automated-construction-and-analysis-of-dendronized-vesicles/issues)
+
+For other feedback, please send an email to the authors:
+
+Akash Banerjee (Graduate Student): akashbanerji@gmail.com
+
+Meenakshi Dutt (Principal Investigator): meenakshi.dutt@rutgers.edu 
