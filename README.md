@@ -28,3 +28,9 @@ For other feedback, please send an email to the authors:
 Akash Banerjee (Graduate Student): akashbanerji@gmail.com
 
 Meenakshi Dutt (Principal Investigator): meenakshi.dutt@rutgers.edu 
+
+## Acknowledgements
+
+The developers gratefully acknowledge financial support from the National Science Foundation CAREER award DMR-1654325. 
+
+Thank you for using our toolkit!
